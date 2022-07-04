@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 19, 2022, 6:46:52 PM
+    Author     : letso
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+}
+.container{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.cv{
+    width: 100px;
+    height: 50px;
+}
+
+.container H1{
+    padding: 60px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 60px;
+    min-width: 1000px;
+} 
+.feature-image{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px 6px 6px 6px;
+    overflow: hidden;
+}
+ 
+.small-img {
+    display: flex;
+    background: #efefef;
+    margin: 30px 150px;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 100%;
+} 
+.display-box{
+    display: inline-block;
+}
+.small-img-row{
+    display: flex;
+}
+
+.small-img-row p{
+    margin-left: 20px;
+    color: #707070;
+    line-height: 22px;
+    font-size: 15px;
+}
+

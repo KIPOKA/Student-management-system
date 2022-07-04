@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 17, 2022, 9:55:51 AM
+    Author     : 27611
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box
+} 
+
+nav{
+    background: #424543;
+    height: 80px;
+    width: 100% 
+}
+label.logo{
+    color: white;
+    font-size:35px;
+    line-height: 90px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 5px;
+    border-radius: 3px;
+    
+}
+nav ul li a i{
+    padding: 0 8px;
+}
+a.active, a:hover{
+    background: #1b9bff;
+    transition: 0.5s;
+    
+}
+.checkBtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+section{
+    background: url(itech.png) no-repeat;
+    background-size: cover;
+    height: calc(100vh -80px);
+}
+
+.banner-2{
+    display: flex;
+    margin-top: 8px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+   
+}
+.left-column{
+    flex-basis: 100%; 
+    margin-left: 200px;
+    
+}
+
+.left-column h1{
+    margin-top: 10%;
+    font-size: 90px;
+}
+.left-column p{
+    font-size: 20px;
+    margin-left: 60px;
+}
+.tech{
+    color: #1b9bff;
+ }
+ .better{
+    color: #1b9bff;
+    text-decoration: underline;
+}
+
+h1{
+    color: #424543;
+}
+
+/*.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: green;
+}
+.content h1{
+    font-size: 20px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid green;
+    background: transparent;
+    color: yellowgreen;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width:0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;  
+    transition: 0.5s;
+}
+    button:hover span{
+    width: 100%;
+}
+    button:hover{
+        border: none;
+    }*/
+
+   
+.nothing{
+    color: #009879;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+

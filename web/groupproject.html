@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link rel="stylesheet" href="CSS/uplaod.css"/>
+        <script src="https://kit.fontawesome.com/ad78bb0d17.js" crossorigin="anonymous"></script>
+        <script language="javascript">{
+            function addRows(tableID){
+                var table = document.getElementById(tableID);
+                var countRow = table.rows.length;
+                var row = table.insertRow(countRow);
+                
+                var cell1 = row.insertCell(0);
+                //var element1 = document.getElememtById('col0');
+                cell1.innerHTML = "Co_Author name:";
+                //cell1.appendChild(element1);
+                
+                var cell2 = row.insertCell(1);
+                var element2 = document.createElement("input");
+                element2.type = "text";
+                element2.name = "author[]";
+                cell2.appendChild(element2);
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <div class="banner" >
+            <div class="navbar">
+                <nav>
+                    <input type="checkbox" id="check"/>
+                    <label for="check" class="checkBtn">
+                        <i class="fas fa-bars"></i> 
+                    </label> 
+                    <label class="logo">i-Tech</label>
+
+                    <ul >
+                        <li><a href="studentprofile.jsp" class="active">Home</a></li>
+                        <li><a href="studentuploadvideo.jsp">Upload Video</a></li>
+                        <li><a href="StudentVideosSerlvlet.do">View Videos</a></li>
+                        <li><a href="JobsAvailableServlet.do">Jobs and Opportunity</a></li>
+                        <li><a href="studenteditprofile.jsp">View Profile</a></li>
+                        <li><a href="EndSession.do">Log out</a></li>
+                        
+<!--                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="#" class="active">Upload Video</a></li>
+
+                        <li><a href="#">Jobs and Opportunity</a></li>
+                        <li><a href="#">View Profile</a></li>
+                        <li><a href="#">Log out</a></li>-->
+                    </ul>
+                </nav>
+            </div>
+<!--            This the form to be sent the servlet on regarding of the session-->
+            <form action="UploadVideo.do" method="POST" enctype="multipart/form-data">
+                <div class="container">
+                    <textarea id="myText" rows="5" 
+                              placeholder="Type the description of project here" 
+                              name="discription"></textarea>
+                    <p id="result"></p>
+                    <div class="btn">
+                    </div>
+                    <input type="file" class="upload-video" name="file"/>
+                    
+                <table id="dataTable">
+                    <tr>
+                        <td id="col0">Partner email: </td>
+                        <td id="col1"><input type="text" name="author[]"/></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><input type="button" value="ADD AUTHOR" onclick="addRows('dataTable')"/></td>
+                    </tr>
+                </table>
+                <div class="submit">
+                        <input type="submit"  value="Upload video" />
+                    </div>
+                
+                </div>
+            </form>
+<!--                The annexe javascript page has another page called script.js to accomondate with the frond end-->
+            <script src="script.js"></script>   
+
+    </body>
+</html>
+
+<!--<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/uplaod.css"/>
+        <script src="https://kit.fontawesome.com/ad78bb0d17.js" crossorigin="anonymous"></script>
+        <script language="javascript">{
+            function addRows(tableID){
+                var table = document.getElementById(tableID);
+                var countRow = table.rows.length;
+                var row = table.insertRow(countRow);
+                
+                var cell1 = row.insertCell(0);
+                //var element1 = document.getElememtById('col0');
+                cell1.innerHTML = "Co_Author name:";
+                //cell1.appendChild(element1);
+                
+                var cell2 = row.insertCell(1);
+                var element2 = document.createElement("input");
+                element2.type = "text";
+                element2.name = "author[]";
+                cell2.appendChild(element2);
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <form action="AddServlet.do" method="POST" enctype="">
+            <table>
+                <tr>
+                    <td>Video:</td>
+                    <td><input type="file" name="isbn"/></td>
+                </tr>
+                <tr>
+                    <td>Title:</td>
+                    <td><input type="text" name="title"/></td>
+                </tr>
+            </table>
+            <table id="dataTable">
+                <tr>
+                    <td id="col0">Author name: </td>
+                    <td id="col1"><input type="text" name="author[]"/></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><input type="button" value="ADD AUTHOR" onclick="addRows('dataTable')"/></td>
+                    <td><input type="submit" value="SUBMIT"/></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>-->

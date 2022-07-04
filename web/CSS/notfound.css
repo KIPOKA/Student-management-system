@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 16, 2022, 10:11:20 PM
+    Author     : letso
+*/
+p{
+    font-size: 35px;
+    text-align: left;
+    font-weight: bold;
+    color: #2c3e50;
+}
+.submit input{
+    padding: 3px 30px;
+    background: #0082e6;
+    height: 50px;
+    border: none;  
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    box-shadow: 5px 5px 0px #0066cc;
+    transition: 0.5s;
+}
+
+.submit input:hover{
+    box-shadow: 0px 0px 0px #0066cc;
+    cursor: pointer;
+    transform: translateX(5px) translateY(5px);
+}
+

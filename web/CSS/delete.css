@@ -1,0 +1,207 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 25, 2022, 9:36:05 PM
+    Author     : letso
+*/
+
+.btn{
+    width: 100px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 150px;
+    transition: width 0.5s;
+    
+}
+.btn:hover{
+   display: block;
+}
+.btn:hover{
+    width: 160px;
+    display: flex;
+    align-content: space-between;
+    background: linear-gradient(to right, #ff3527, green);
+}
+
+.apply{
+   width: 100px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, greenyellow, green);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: width 0.5s;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}
+.apply:hover{
+   display: block;
+}
+.apply:hover{
+    width: 160px;
+    display: flex;
+    align-content: space-between;
+    background: linear-gradient(to right, greenyellow, green);
+}
+
+.butn{
+    width: 100px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    margin-top: 2px;
+    transition: width 0.5s;
+    
+}
+
+.user-name{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 2px;
+}
+.user-desc{
+    margin-bottom: 3px;
+}
+.butn:hover{
+   display: block;
+}
+.butn:hover{
+    width: 160px;
+    display: flex;
+    align-content: space-between;
+    background: linear-gradient(to right, #ff3527, green);
+}
+
+.delete-stud{
+    width: 100px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+    
+}
+.delete-stud:hover{
+   display: block;
+}
+.delete-stud:hover{
+    width: 160px;
+    display: flex;
+    align-content: space-between;
+    background: linear-gradient(to right, #ff3527, green);
+}
+
+.for{
+    display: flex;
+    margin-left: 150px;
+}
+
+.approve{
+    width: 100px;
+    border: 0;
+    padding: 12px 0px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, green, green);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 110px;
+    transition: width 0.5s;
+}
+
+.approve:hover{
+   display: block;
+}
+.approve:hover{
+    width: 160px;
+    display: flex;
+    align-content: space-between;
+    background: linear-gradient(to right, green, green);
+}
+
+.decline{
+    width: 100px;
+    border: 0;
+    padding: 12px 0px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #ff3527, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 110px;
+    transition: width 0.5s;
+}
+
+.decline:hover{
+   display: block;
+}
+.decline:hover{
+    width: 160px;
+    display: flex;
+    align-content: space-between;
+    background: linear-gradient(to right, #ff3527, #ff3527);
+}
+
+.approve-comp{
+    width: 100px;
+    border: 0;
+    padding: 12px 0px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, green, green);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+.approve-comp:hover{
+   display: block;
+}
+.approve-comp:hover{
+    width: 160px;
+    display: flex;
+    align-content: space-between;
+    background: linear-gradient(to right, green, green);
+}
+
+.decline-comp{
+    width: 100px;
+    border: 0;
+    padding: 12px 0px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #ff3527, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+.decline-comp:hover{
+   display: block;
+}
+.decline-comp:hover{
+    width: 160px;
+    display: flex;
+    align-content: space-between;
+    background: linear-gradient(to right, #ff3527, #ff3527);
+}
